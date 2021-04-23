@@ -1,4 +1,4 @@
-# titanic
+# Titanic Survivability Classifier
 A classification model to determine survivability on the Titanic
 
 The classification models used were a Naive Bayes model and multiple KNN models (K = 1-221 neighbors, with step of 10)
