@@ -1,0 +1,19 @@
+# Make the directory for Titanic and all its subdirectories
+mkdir -p Titanic/{Admin,Data,Deliver,Imgs,Notebooks,Reading}
+
+# Go into the Data directory
+cd Titanic/Data/
+
+# Use wget to get the titanic.csv and save it in Data directory
+wget http://jhetrick.io/ANLT210/titanic.csv
+
+# Move up one directory and then into the Reading subdirectory
+cd ../Reading/
+
+# Creating the NOTES.txt
+vi NOTES.txt
+
+# Paste the notes.
+
+# "wget https://arxiv.org/ftp/arxiv/papers/1810/1810.09851.pdf" gives a forbidden 403 error.
+# So I just downloaded the pdf manually and saved it in the Reading directory.

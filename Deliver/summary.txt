@@ -1,0 +1,25 @@
+Christopher Chao
+
+I used both the Gaussian Naive Bayes and K-Nearest Neighbor models.
+- 1 Naive Bayes model
+- 23 KNN models (starting at 1 neighbor to 221 neighbors with a 10 neighbor step)
+
+The Naive Bayes got an accuracy of 82%
+The highest accuracy of all the KNN models was 84.2% with 21 neighbors
+
+=======================================================================================================
+
+There are pros and cons with the two model types used.
+
+Naive Bayes is an incredibly quick model, however, it assumes that all features are independent.
+For example, it can be assumed that the Pclass of the Titanic dataset with the Fare are related.
+
+KNN intuitive and simple to understand. 
+It also does not need a training step and does not inherently make a model.
+However, it is a slower algorithm and needs the data to be normalized.
+KNN works poorly with outliers.
+
+=======================================================================================================
+
+I personally would use the Naive Bayes classifier since this is a fairly simple problem and dataset.
+From that, I would choose features that are most independent from each other and create a Naive Bayes model.
